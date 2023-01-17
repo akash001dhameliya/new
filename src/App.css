@@ -1,0 +1,112 @@
+/* ===========================Header Start================================ */
+.Link:hover
+{
+    background-position: 0%,100%;
+}
+
+.Link
+{
+    /* margin: 30px 13px; */
+    transition: .5s;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    /* font-size: 18px; */
+    font-weight: 600;
+    background-size: 300%;
+    font-family: 'Rajdhani';
+    background: linear-gradient( to right, #fff, #ED2C41 50%,black 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200%, 100%;
+    background-position: 100%;
+    /* background-color: black; */
+}
+
+li
+{
+    /* background-color: black; */
+    list-style: none;
+}
+
+ul
+{
+    background-color: black;
+}
+
+h1
+{
+    font-family: 'Rajdhani';
+}
+
+.mainmenu
+{
+    position: relative;
+}
+
+.submenu
+{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    position: absolute;
+    border-radius: 5px;
+    top:120%;
+    /* padding: 30px; */
+    right: 20%;
+    width:230px;
+    border-top:1px solid #ED2C41;
+    opacity: 0;
+    display: none;
+    transition: .5s;
+    transform: translateY(10px);
+}
+
+.mainmenu:hover .submenu
+{
+    opacity: 1;
+    display: block;
+    transition: .5s;
+    transform: translateY(0px);
+}
+
+.submenu li
+{
+    color: white !important;
+    padding: 5px;
+    /* width: 200px; */
+    margin: 10px;
+    transition: .5s;
+    transform: translateX(5px);
+
+}
+
+.submenu li:hover
+{
+    color: white !important;
+    /* font-size: 17px; */
+    padding: 5px;
+    /* width: 200px; */
+    margin: 10px;
+    transition: .5s;
+    transform: translateX(0px);
+}
+
+.icon
+{
+    font-size: 12px;
+    color: black;
+    transition: .5s;
+    margin-left: 5px;
+    font-weight: bolder;
+    /* border: 1px solid; */
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.mainmenu:hover .icon
+{
+    transform: rotate(180deg);
+    color: red;
+    
+    transition: .5s;
+}
+
